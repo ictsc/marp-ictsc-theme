@@ -1,0 +1,66 @@
+/**
+* @theme ictsc
+**/
+@import-theme "default";
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+section:not(.section-header, .section-title) {
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 100%, 0 0;
+  background-image: url("https://lh3.googleusercontent.com/3rANEjwEZqCrLKWutRCg63HmWSpC7AvKln4s1Kjq-WjLBT6zVIIV7r8QSAZdFViDml8iYvv7grrR1e_L6DvyWKKQo9XQPd_j4Zqpi5J59SYBLNLYfSS_EbsDKd9N51dHZGUVIF8EvvfCCCwjbL4DPS2-anJ9zFtA-lLune3fzcod7MqUg3bgmlISfAyrowpW=nw"), url("https://lh3.googleusercontent.com/3rANEjwEZqCrLKWutRCg63HmWSpC7AvKln4s1Kjq-WjLBT6zVIIV7r8QSAZdFViDml8iYvv7grrR1e_L6DvyWKKQo9XQPd_j4Zqpi5J59SYBLNLYfSS_EbsDKd9N51dHZGUVIF8EvvfCCCwjbL4DPS2-anJ9zFtA-lLune3fzcod7MqUg3bgmlISfAyrowpW=nw");
+}
+
+section h1,
+section h2,
+section h3,
+section h4 {
+  color: #A3864A;
+}
+section.section-title {
+  background-color: #EAE4E5;
+  color: #68696E;
+}
+section.section-header {
+  background-color: #A3864A;
+  background-image: url(https://lh3.googleusercontent.com/iDVo0BP-MUkWG1obUaJwGNx9Y4vnDgwFc6JatzgeO7-ftOIaesfis5KhcA9u1t4YTb20Pobw_LUHpXLm4u56Ghh_DviNmSJzAwutm6pVT138RfyD-xHyaeSNmv1gyLfAk3JmPdPwJiojjtUMCPnSA9k30237UZzsZqNa9xhx0uV-fd6ZWT1gT9czX2O5KP29=nw), url(https://lh3.googleusercontent.com/iDVo0BP-MUkWG1obUaJwGNx9Y4vnDgwFc6JatzgeO7-ftOIaesfis5KhcA9u1t4YTb20Pobw_LUHpXLm4u56Ghh_DviNmSJzAwutm6pVT138RfyD-xHyaeSNmv1gyLfAk3JmPdPwJiojjtUMCPnSA9k30237UZzsZqNa9xhx0uV-fd6ZWT1gT9czX2O5KP29=nw);
+  background-repeat: no-repeat;
+  background-position: -10% center, 110% center;
+  background-size: auto 30%;
+}
+section.section-header h1,
+section.section-header h2,
+section.section-header h3,
+section.section-header h4 {
+  color: white;
+}
+section.sectioon-header-simple {
+  background-color: #A3864A;
+}
+section.sectioon-header-simple h1,
+section.sectioon-header-simple h2,
+section.sectioon-header-simple h3,
+section.sectioon-header-simple h4 {
+  color: white;
+}
+section.text-top {
+  justify-content: normal;
+}
+section.text-align-center {
+  text-align: center;
+}
+
+/*# sourceMappingURL=ictsc.css.map */
